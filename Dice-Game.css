@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #2d313a;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 70px;
+  color: #44d39f;
+  margin-bottom: 50px;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+
+.player p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.player img {
+  width: 120px;
+  height: 120px;
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  background: #44d39f;
+  color: #2d313a;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
